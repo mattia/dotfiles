@@ -1,4 +1,5 @@
 #App List
+
 This is a list of macOS apps that I find really useful:
 
  - [Firefox](https://www.mozilla.org/en-US/firefox/): alternative browser to Safari (not willing to use Chrome anymore)
