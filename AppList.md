@@ -1,4 +1,4 @@
-#App List
+# App List
 
 This is a list of macOS apps that I find really useful:
 
