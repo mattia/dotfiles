@@ -6,13 +6,11 @@ brew "clang-format"
 brew "ffmpeg"
 # Elixir: Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 brew "elixir"
-# Fish: amazing autocomplete-based modern shell
-brew "fish"
 # Git: decentralized version control system
 brew "git"
 brew "git-lfs"
 # GNUPG: pretty good privacy and encryption
-brew "gnupg", args: ["without-libusb"]
+brew "gnupg" #(OLD), args: ["without-libusb"]
 brew "pinentry"
 brew "pinentry-mac"
 # Mobile Shell (mosh): a better remote shell

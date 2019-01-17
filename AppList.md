@@ -3,7 +3,7 @@
 This is a list of macOS apps that I find really useful:
 
  - [Firefox](https://www.mozilla.org/en-US/firefox/): alternative browser to Safari (not willing to use Chrome anymore)
- - [GitUp](https://gitup.co): beautiful, fast and "human" Git GUI client
+ - [GitUp](https://gitup.co): beautiful, fast and "human" Git GUI client (now I am using [this fork](https://github.com/douglashill/GitUp) with support to Dark Mode)
  - [Keybase](https://keybase.io)
  - [MacDown](https://macdown.uranusjr.com): Good GUI Markdown editor
  - [Pacifist](https://www.charlessoft.com): Inspector/extraction tool for macOS packages
@@ -18,6 +18,7 @@ This is a list of macOS apps that I find really useful:
  - Pixelmator Pro: Image editing app
  - Slack: Chat app
  - Airmail: Email client
+ - [Charles Proxy](https://www.charlesproxy.com/)
  - [Hopper](https://www.hopperapp.com): Disassembler
  - [Authy Desktop](https://authy.com): 2FA app
  - MindNode: Mind mapping app
@@ -26,5 +27,6 @@ This is a list of macOS apps that I find really useful:
  - [Spectacle](https://www.spectacleapp.com): Window management app
  - [SuperDuper!](https://www.shirt-pocket.com/SuperDuper/SuperDuperDescription.html): Disk cloner app
  - [TextMate](https://github.com/textmate/textmate): macOS GUI editor
+ - [Visual Studio Code](https://code.visualstudio.com)?: General purpose code GUI editor
  - [Textual](https://www.codeux.com/textual/): IRC client
  - Things: Stunning To Do app

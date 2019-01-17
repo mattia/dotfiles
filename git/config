@@ -1,11 +1,13 @@
-[user]
-        email = mattia@mvalzelli.com
-        name = Mattia Valzelli
 [core]
-		excludesfile = ~/.gitignore_global
+	excludesfile = /Users/mattia/.gitignore_global
+	attributesfile = /Users/mattia/.gitattributes
+[includeIf "gitdir:~/Developer"]
+	path = .gitconfig-personal
+[includeIf "gitdir:~/Developer/DuckMa/"]
+	path = .gitconfig-work
 # Use macOS Keychain to store credentials
 [credential]
-		helper = osxkeychain
+	helper = osxkeychain
 # Colorization
 [color]
         branch = auto
@@ -21,10 +23,10 @@
 [commit]
         gpgSign = true
 [gpg]
-		program = /usr/local/bin/gpg
+	program = /usr/local/bin/gpg
 # Git LFS		
 [filter "lfs"]
-		smudge = git-lfs smudge -- %f
-		process = git-lfs filter-process
-		required = true
-		clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
