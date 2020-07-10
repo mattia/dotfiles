@@ -1,0 +1,46 @@
+[user]
+	name = Mattia Valzelli
+	email = mattia@mvalzelli.com
+[core]
+	attributesfile = ~/.dotfiles/git/attributes
+	editor = code --wait
+	excludesfile = ~/.dotfiles/git/ignore
+	autocrlf = input
+        pager = less -r
+        whitespace = space-before-tab,trailing-space
+[credential]
+        helper = osxkeychain
+# Colors
+[color]
+        branch = auto
+        diff = auto
+        status = auto
+        ui = auto
+        pager = true
+        interactive = auto
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+# Diff
+[diff "plist"]
+        textconv = plutil -convert xml1 -o -
+# Git LFS		
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[format]
+        pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
+[web]
+        browser = open

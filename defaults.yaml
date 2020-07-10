@@ -1,0 +1,3 @@
+# Defaults that affect all user apps
+NSGlobalDomain:
+  AppleShowAllExtensions: true
