@@ -1,0 +1,3 @@
+Brewfile.lock.json
+symlinks/ssh/.ssh/id_*
+symlinks/ssh/.ssh/known_hosts
