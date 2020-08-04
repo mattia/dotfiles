@@ -1,3 +1,4 @@
+brew "swift-format"
 brew "elixir"
 brew "hugo"
 brew "youtube-dl"
