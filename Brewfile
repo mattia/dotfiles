@@ -1,18 +1,21 @@
-brew "swift-format"
-brew "elixir"
+brew "gleam"
+brew "swiftformat"
 brew "hugo"
 brew "youtube-dl"
 brew "git-lfs"
 
+# GNUPG: pretty good privacy and encryption
+brew "gnupg" #(OLD), args: ["without-libusb"]
+brew "pinentry"
+brew "pinentry-mac"
+
 cask "docker"
-cask "gitup"
+cask "fork"
 cask "pacifist"
 cask "paw"
 cask "rectangle"
-cask "visual-studio-code"
 
 mas "1Blocker", id: 1107421413
-mas "1Password", id: 1333542190
 mas "Bear", id: 1091189122
 mas "Deliveries", id: 924726344
 mas "Developer", id: 640199958
