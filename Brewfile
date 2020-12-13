@@ -3,6 +3,7 @@ brew "swiftformat"
 brew "hugo"
 brew "youtube-dl"
 brew "git-lfs"
+brew "node"
 
 # GNUPG: pretty good privacy and encryption
 brew "gnupg" #(OLD), args: ["without-libusb"]
