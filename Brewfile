@@ -15,6 +15,7 @@ cask "fork"
 cask "pacifist"
 cask "paw"
 cask "rectangle"
+cask 'visual-studio-code'
 
 mas "1Blocker", id: 1107421413
 mas "Bear", id: 1091189122
