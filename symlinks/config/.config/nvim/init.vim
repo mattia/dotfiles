@@ -13,9 +13,9 @@ Plug 'hashivim/vim-terraform', { 'for': 'terraform' }
 Plug 'leafgarland/typescript-vim', { 'for': 'typescript' }
 Plug 'mxw/vim-jsx', { 'for': 'javascript' }
 Plug 'lpil/gleam.vim', { 'for': 'gleam' }
-Plug 'ncm2/ncm2'
-Plug 'roxma/nvim-yarp'
-Plug 'neomake/neomake'
+"Plug 'ncm2/ncm2'
+"Plug 'roxma/nvim-yarp'
+"Plug 'neomake/neomake'
 Plug 'sbdchd/neoformat'
 Plug 'scrooloose/nerdtree'
 Plug 'sirver/ultisnips'
@@ -121,9 +121,9 @@ inoremap <F1> <Nop>
 nnoremap gp :Neoformat<CR>
 
 " Plugin: ncm2, enable ncm2 for all buffers
-autocmd BufEnter * call ncm2#enable_for_buffer()
-let g:python3_host_prog = '/usr/local/bin/python3'
-let g:python_host_prog = '/usr/local/bin/python'
+"autocmd BufEnter * call ncm2#enable_for_buffer()
+"let g:python3_host_prog = '/usr/local/bin/python3'
+"let g:python_host_prog = '/usr/local/bin/python'
 
 " :help Ncm2PopupOpen for more information
 set completeopt=noinsert,menuone,noselect
