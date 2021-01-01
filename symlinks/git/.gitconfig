@@ -52,3 +52,5 @@
         pretty = %Cblue%h%Creset %Cgreen[%ar]%Creset (%an) %s
 [web]
         browser = open
+[init]
+	defaultBranch = main
